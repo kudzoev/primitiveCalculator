@@ -47,6 +47,14 @@ body{
     background-color: rgba(128, 128, 128, 0.372);
 }
 
+.button:hover{
+    background-color: rgba(128, 128, 128, 0.500);
+}
+
+.button:active{
+    transform: scale(1.04);
+}
+
 .zero-btn{
     padding: 30px 190px 26px 20px;
 }
@@ -55,6 +63,15 @@ body{
     background-color: #9b653e;
 }
 
+.btn-orange:hover{
+    background-color: #9b5b3e;
+}
+
 .btn-grey{
     background-color: #544545;
 }
+
+.btn-grey:hover{
+    background-color: #493b3b;
+}
+
